@@ -53,21 +53,3 @@ np.mean(cross_val_score(lr, df.iloc[:, [0,1,-2,-1]], df.iloc[:, 2], cv=3))
 
 #Predict for Custom Values
 lr.predict([[144372, 118672, 0,1]])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
