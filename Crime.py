@@ -45,8 +45,5 @@ df_clean = df.loc[:, features]
 
 #Creation of Test and Train Dataset
 from sklearn.model_selection import train_test_split as tts
-x_train, x_test, y_train, y_test = tts(df_clean.iloc[:, [1,2,3,4,5,6]], df_clean.iloc[:, 0], train_size = 0.90)            
-
-            
-
-            
+x_train, x_test, y_train, y_test = tts(df_clean.iloc[:, [1,2,3,4,5,6]], df_clean.iloc[:, 0], train_size = 0.90)      
+          
